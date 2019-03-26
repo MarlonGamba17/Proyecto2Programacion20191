@@ -4,16 +4,13 @@ def obtener_complemento(base):
 
     La función obtener complento que retorna el complemento de una base
 
-    >>> obtener_complemento("A")
+    >>> obtener_complemento('A')
     'T'
-
-    >>> obtener_complemento(T)
+    >>> obtener_complemento('T')
     'A'
-
-    >>> obtener_complemento(C)
+    >>> obtener_complemento('C')
     'G'
-
-    >>> obtener_complemento(G)
+    >>> obtener_complemento('G')
     'C'
 
     :param base:
@@ -77,10 +74,25 @@ def calcular_correspondencia(adn1, adn2):
     return porcentaje
     # retorna num
 
-    pass
-
 
 def corresponden(adn1, adn2):
+    """
+    (str) -> bool
+
+    La función que nos valida la correspondencia entre dos cadenas
+
+    >>> corresponden(GATA)
+    true
+
+    >>> corresponden(GATAR)
+    false
+
+    :param adn1:
+    :param adn2:
+    :return:
+    """
+    if (adn1) == 
+
     # retorna Bool
     pass
 
